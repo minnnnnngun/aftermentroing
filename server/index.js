@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, "../public")));
 
 
 app.get("/", (req, res) => {
-  res.send("Memo Board API");
+  res.send("Memo Board API Hello");
 });
 
 app.get("/health", (req, res) => {
